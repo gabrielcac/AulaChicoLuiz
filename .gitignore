@@ -1,0 +1,116 @@
+# =============== #
+# Unity generated #
+# =============== #
+/[Ll]ibrary/
+/[Tt]emp/
+/[Uu]nity[Gg]enerated/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+
+# ============================ #
+# Unity3D generated meta files #
+# ============================ #
+*.pidb.meta
+
+# ======================================= #
+# Unity3D Generated File On Crash Reports #
+# ======================================= #
+sysinfo.txt
+
+# ====== #
+# Builds #
+# ====== #
+*.apk
+*.unitypackage
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+.consulo/
+*.csproj
+*.tmp
+*.svd
+*.pdb
+
+# ================================== #
+# Visual Studio 2015 cache directory #
+# ================================== #
+/.vs/
+
+# ===== #
+# Rider #
+# ===== #
+.idea
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+# Icon?
+ehthumbs.db
+Thumbs.db
+
+# ============== #
+# FMOD generated #
+# ============== #
+.cache/
+.recycle/
+.user/
+.unsaved/
+*.log
+
+Assets/Game/StaticAssets/Audio/Metadata/DataFile/
+Assets/Game/StaticAssets/Audio/Metadata/DataFile.meta
+Assets/Game/StaticAssets/Audio/Metadata/DAWAsset/
+Assets/Game/StaticAssets/Audio/Metadata/DAWAsset.meta
+Assets/Game/StaticAssets/Audio/Metadata/DAWProject/
+Assets/Game/StaticAssets/Audio/Metadata/DAWProject.meta
+Assets/Game/StaticAssets/Audio/Metadata/EffectPreset/
+Assets/Game/StaticAssets/Audio/Metadata/EffectPreset.meta
+Assets/Game/StaticAssets/Audio/Metadata/Locale/
+Assets/Game/StaticAssets/Audio/Metadata/Locale.meta
+Assets/Game/StaticAssets/Audio/Metadata/MixerView/
+Assets/Game/StaticAssets/Audio/Metadata/MixerView.meta
+Assets/Game/StaticAssets/Audio/Metadata/Snapshot/
+Assets/Game/StaticAssets/Audio/Metadata/Snapshot.meta
+Assets/Game/StaticAssets/Audio/Metadata/VCA/
+Assets/Game/StaticAssets/Audio/Metadata/VCA.meta
+Assets/Game/StaticAssets/Audio/Plugins/
+Assets/Game/StaticAssets/Audio/Plugins.meta
+
+# =============================================================== #
+# Arquivos adicionados automaticamente pelo Play Service Resolver #
+# =============================================================== #
+Assets/Plugins/Android/animated-vector-drawable-*.aar*
+Assets/Plugins/Android/appcompat-*.aar*
+Assets/Plugins/Android/play-services-ads-*.aar*
+Assets/Plugins/Android/play-services-ads-lite-*.aar*
+Assets/Plugins/Android/play-services-base-*.aar*
+Assets/Plugins/Android/play-services-basement-*.aar*
+Assets/Plugins/Android/play-services-clearcut-*.aar*
+Assets/Plugins/Android/play-services-gass-*.aar*
+Assets/Plugins/Android/play-services-tasks-*.aar*
+Assets/Plugins/Android/support-*.aar*
+Assets/Plugins/Android/support-annotations-*.jar*
+Assets/Plugins/Android/support-compat-*.aar*
+Assets/Plugins/Android/support-core-ui-*.aar*
+Assets/Plugins/Android/support-core-utils-*.aar*
+Assets/Plugins/Android/support-fragment-*.aar*
+Assets/Plugins/Android/support-media-compat-*.aar*
+Assets/Plugins/Android/support-vector-drawable-*.aar*
+Assets/Plugins/Android/play-services-safetynet-*.aar*
