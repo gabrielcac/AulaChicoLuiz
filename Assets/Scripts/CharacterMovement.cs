@@ -4,17 +4,37 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-	public float speed;
-
-	void Update()
+    // Start is called before the first frame update
+    public float speed = 5;
+    public float rotationSpeed;
+    void Start()
     {
-		if(Input.GetKey(KeyCode.W))
-		{
-			transform.position += speed * Time.deltaTime * Vector3.forward;
-		}
-		if (Input.GetKey(KeyCode.S))
-		{
-			transform.position += speed * Time.deltaTime * Vector3.back;
-		}
-	}
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.position += speed * Time.deltaTime * transform.forward;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.position += speed * Time.deltaTime * -transform.forward;
+
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.rotation *= Quaternion.Euler(0, -rotationSpeed * Time.deltaTime, 0);
+            Debug.Log(transform.forward);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.rotation *= Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
+            Debug.Log(transform.forward);
+        }
+
+    }
 }
